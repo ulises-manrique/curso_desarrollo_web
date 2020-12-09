@@ -1,1 +1,5 @@
 notas.txt
+images/
+*.png
+*.jpg
+*.svg
