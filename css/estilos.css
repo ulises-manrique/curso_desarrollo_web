@@ -6,7 +6,7 @@ Propiedades
 Valores 
 */
 
-/*selector de etiqeuta -header -section -etc*/
+/*selector de etiqeuta header section etc*/
 /* selector descendente* body header div nav ol li a */
 
 /*selector de clase .*/
@@ -15,8 +15,63 @@ Valores
 
 body{
     font-family: 'Source Sans Pro', sans-serif ;
+    margin: 0;
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+    color: white;
+    margin: 100px 150px 70px 30px;
+}
+
+h1 strong{
+    color: #026fff;
+}
+
+.hero{
+    height: 300;
+    background-image: url('../images/hero.jpg');
+    background-color: #1b2727;
+    background-size: 500px 300px ;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.portfolio{
+    background: #fafafa;
+}
+
+.Project{
+    border: 1px solid gray;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    margin: 10px;
+    margin-bottom:  15px;
+    padding: 20px;
+    background: white;
+}
+
+.Project-details{
+    width: 500;
+}
+
+.Project-imageContainer{
+    width: 500;
+}
+
+.header{
+    background-color: #1b2127;
+    color: white;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
 }
