@@ -1,0 +1,13 @@
+/*desktop first comienazan los media query desde el mas grande*/
+
+@media screen and (max-width:1024px) {}
+
+@media screen and (max-width:768px) {
+    body {
+        border: 10px solid darkblue;
+    }
+}
+
+@media screen and (max-width:480px) {}
+
+@media screen and (max-width:320px) {}
