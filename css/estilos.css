@@ -1,18 +1,3 @@
-/* 
-Reglas
-Selectores
-Declaraciones
-Propiedades
-Valores 
-*/
-
-/*selector de etiqeuta header section etc*/
-/* selector descendente* body header div nav ol li a */
-
-/*selector de clase .*/
-
-/* selector de id # */
-
 body{
     font-family: 'Source Sans Pro', sans-serif ;
     margin: 0;
