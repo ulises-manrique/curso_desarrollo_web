@@ -3,9 +3,40 @@
 @media screen and (max-width:1024px) {}
 
 @media screen and (max-width:768px) {
-    body {
-        border: 10px solid darkblue;
+    body {}
+    .header .logo {
+        text-align: center;
     }
+    .project {
+        display: block;
+    }
+    .project-imageContainer{
+        width: auto;
+        text-align: center;
+    }
+    .project-details{
+        width: auto;
+        font-size: 16px;
+    }
+    .project-course, .project-date, .project-url{
+        margin:0.4em 0;
+    }
+    .project-title{
+        font-size: 1.5em;
+    }
+    .project-url{
+        font-size: 1em;
+    }
+    .project-course{
+        font-size: 1.7em;
+    }
+    .project-date{
+        font-size: 1em;
+    }
+    .project-description{
+        font-size: 0.8em;
+    }
+
 }
 
 @media screen and (max-width:480px) {}
